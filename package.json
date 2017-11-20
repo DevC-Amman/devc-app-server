@@ -1,0 +1,52 @@
+{
+  "name": "devc_server",
+  "version": "1.0.0",
+  "description": "DevC Amman Application Server",
+  "scripts": {
+    "start": "nodemon ./server/server.js",
+    "babel-start": "nodemon ./server/server.js --exec babel-node",
+    "test": "eslint ./server/**/*.js"
+  },
+  "keywords": [
+    "graphql",
+    "nodejs",
+    "apollo",
+    "express",
+    "mysql",
+    "mongodb"
+  ],
+  "author": {
+    "name": "cg imagine+invent dev team",
+    "email": "dev@cgiandi.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^1.1.7",
+    "axios": "^0.16.2",
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "fcm-node": "^1.2.1",
+    "firebase-admin": "^5.4.3",
+    "graphql": "^0.11.7",
+    "graphql-subscriptions": "^0.5.4",
+    "graphql-tools": "^1.2.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1",
+    "mongoose": "^4.12.3",
+    "mysql2": "^1.4.0",
+    "nodemon": "^1.12.1",
+    "sequelize": "^4.15.0",
+    "subscriptions-transport-ws": "^0.9.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

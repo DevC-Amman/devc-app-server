@@ -1,0 +1,27 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases #
+######################
+*.log
+
+# node.js #
+###########
+node_modules/
+yarn.lock
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+
+!*.gitkeep
