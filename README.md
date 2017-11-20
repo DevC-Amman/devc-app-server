@@ -1,6 +1,6 @@
 # DevC Application Server
 
-This repository contains the server for DevC mobile app.
+This repository contains the server for [DevC mobile app](https://github.com/DevC-Amman/devc-app).
 
 ## Getting Started
 
