@@ -1,11 +1,12 @@
 import _ from 'lodash';
+import moment from 'moment';
 import { Agenda, Device } from '../connectors';
 import { admin } from '../fcm';
 
 export default {
   RootQuery: {
     agendas() {
-      return Agenda.find().sort('date');
+      return Agenda.find().where('date').gt(moment().startOf('day')).sort('date');
     },
   },
   RootMutation: {

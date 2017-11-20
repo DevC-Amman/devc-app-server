@@ -20,7 +20,7 @@ const AgendaSchema = Mongoose.Schema({
       subtitle: String,
     }],
   }],
-  active: Boolean,
+  active: { type: Boolean , default: true },
   created_at: { type: Date, default: Date.now },
 });
 

@@ -69,6 +69,7 @@ input AgendaInput {
   location: LocationInput!
   imageUrl: String
   activities: [ActivityInput]
+  active: Boolean
 }
 
 input UpdateAgendaInput {
@@ -76,6 +77,7 @@ input UpdateAgendaInput {
   date: String
   location: LocationInput
   imageUrl: String
+  active: Boolean
 }
 
 extend type RootMutation {
